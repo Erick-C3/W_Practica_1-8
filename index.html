@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <h1 id="titulo-principal">Contacto</h1>
+    <form id="formulario-contacto" action="./inicio.html" target="_blank">
+        <div id="info-usuario">
+            <div class="info" id="info-nombre">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre-usuario" id="nombre" required>
+            </div>
+            <div class="info" id="info-email">
+                <label for="email">Email:</label>
+                <input type="email" name="email-usuario" id="email" required>
+            </div>
+            <div class="info" id="info-mensaje">
+                <label for="texto">Mensaje:</label>
+                <textarea name="texto-usuario" id="texto" rows="5" cols="20"></textarea>
+            </div>
+            <input id="enviar-form" type="submit" value="Enviar">
+        </div>
+    </form>
+</body>
+
+</html>
