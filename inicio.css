@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(214, 208, 208);
+}
+
+.usuario{
+    background-color: rgb(206, 174, 174);
+    border: 2px solid black;
+    width: 50%;
+    margin-bottom: 10px;
+}
